@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+
+    <style>
+
+        body{
+
+            background-image: url(../IMAGENES/fondo2.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: initial;
+
+        }
+
+    </style>
+
+
+</head>
+<body>
+    <nav align="center">
+        <a href="../inicio.html">Inicio</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="contacto.html">Contacto</a>
+        
+    </nav>
+    <h1 align="center">Contacta con nosotros "Legalmente"</h1>
+    <p align="center">
+        Tines que ir al sitio especificamente que esta en el mapa,
+        ahí hablamos de negocios
+        
+    </p>
+    <div align="center">
+        <img width="30%" src="../imagenes/avion2.png" alt="">
+    </div>
+    <div align="center">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15300165.040609159!2d-121.83804625!3d20.5720491!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ad87ee7e62e5%3A0x48efc94ee8406a87!2sCallej%C3%B3n%20sin%20salida!5e0!3m2!1ses-419!2sco!4v1722875869612!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </div>
+    <h2 align="center">Llena tus datos</h2>
+    <div align="center">
+        <form method="post" enctype="multipart/form-data">
+            <label>Escribe tú Nombre</label>
+            <input name="nombre" type="text" placeholder="En Mayúsculas"> <br>
+            <label>Escribe tú Télefono</label>
+            <input type="number" name="telefono" maxlength="10" required> <br>
+            <label>Escriba un Correo</label>
+            <input type="email" required> <br>
+            <label>Escribe tú Edad</label>
+            <input style="width: 13%;" type="number" min="18" max="80"> <br>
+            <label>Escoje tu Droga</label>
+            <select name="Drogas">
+                <option aria-placeholder="Seleccione"></option>
+                <option value="cocaina">Cocaina</option>
+                <option value="marihuana">Marihuana</option>
+                <option value="lsd">LSD</option>
+                <option value="fentanilo">Fentanilo</option>
+                <option value="metanfetamina">Metanfetamina</option>
+                <option value="heroina">Heroina</option>
+                <option value="hongos">Hongos</option>
+            </select> <br>
+            <Label>Sugerencias, Quejas y Reclamos</Label> <br>
+            <textarea name="pqrs" placeholder="escribe tu experiencia" id=""></textarea> <br>
+
+            <br> <br>
+            <button type="submit">Enviar Información</button>
+            <button type="reset">Borras Información</button>
+
+        </form>
+
+    </div>
+    <br><br><br><br>
+
+</body>
+</html>
